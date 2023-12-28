@@ -1,0 +1,66 @@
+.logo {
+  display: flex;
+}
+.box1 {
+  outline: 1px solid #fff;
+  color: #fff;
+  height: 39px;
+  width: 150px;
+  text-align: center;
+  font-weight: 2.5rem;
+  background: none !important;
+}
+.navbar {
+  background-color: #212d57 !important;
+  height: 100px;
+}
+.navbar span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.content {
+  outline: 1px solid #fff;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.content img {
+  width: 70px;
+  border-radius: 20px;
+}
+.content i {
+  font-size: 2rem;
+}
+.row1 {
+  display: flex;
+}
+.content1 i {
+  font-size: 2rem;
+  color: #fff;
+}
+.content1 {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 22%;
+  right: -9%;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background: red;
+  color: #fff !important;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem !important;
+  font-weight: 500;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+  }
+}

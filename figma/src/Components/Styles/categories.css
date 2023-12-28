@@ -1,0 +1,192 @@
+.categories {
+  background-color: #f2f6f9;
+  height: auto;
+  width: auto;
+}
+.Job {
+  background: #3153cd;
+  height: 50px;
+  width: 100px;
+  color: #000;
+}
+.Job i {
+  color: #fff;
+  cursor: pointer;
+}
+.box {
+  background: #fff;
+  height: 50px;
+  width: 100px;
+  border-bottom: 1px solid #f2f6f9;
+  font-weight: 200;
+}
+.takeoff {
+  background: #f2f6f9;
+  height: 50px;
+  width: 100px;
+  color: #000;
+  border-left: 5px solid #fd6a4e;
+}
+.fixtures {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.i {
+  padding-right: 20px;
+  font-size: 1.5rem;
+}
+
+.Title {
+  display: flex;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.no-borders-table {
+  border-bottom: #f2f6f9;
+  cursor: pointer;
+  padding: 10px;
+}
+.no-borders-table th,
+.no-borders-table td {
+  border: none;
+}
+.rightArrow {
+  background: #3153cd;
+}
+
+.acceptSet {
+  border: none;
+  border-radius: 100px;
+  background-color: #13ab39;
+  color: #f2f6f9;
+  height: 30px;
+  width: 120px;
+}
+.luffy {
+  background: #fff;
+  padding: 10px 10px;
+  display: flex;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+.high {
+  color: 1px solid #000;
+  height: 40px;
+  width: 30%;
+  border-color: #f2f6f9;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.job_details button {
+  background: #3153cd;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  padding: 0px 10px;
+  outline: auto;
+  color: #f2f6f9;
+}
+button {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: #3153cd;
+}
+.metric {
+  background: #3153cd;
+  border-radius: 10px;
+  color: #fff;
+}
+.metric span {
+  background: #f2f6f9;
+}
+.product {
+  padding: 30px;
+  position: relative;
+}
+.product input {
+  padding-right: 30px;
+  padding-left: 25px;
+  border: none;
+  border-radius: 10px;
+}
+.FontAwesomeIcon {
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.sort {
+  display: flex;
+  padding-left: 10px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.name {
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  color: 1px solid #000;
+  font-size: 600;
+}
+.import {
+  color: #3153cd;
+  background: #ffffff;
+  border-radius: 2px;
+  padding: 5px;
+}
+.popup_title {
+  text-align: center !important;
+}
+.popup_div {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+.popup_div input {
+  border-radius: 5px;
+}
+.bordered-table {
+  background-color: #f2f6f9;
+  border-bottom: #f2f6f9;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.bordered-table th,
+.bordered-table td {
+  background: #f2f6f9;
+}
+
+.popup_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.popup_btn1 {
+  height: 50px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1401px) {
+  .product {
+    position: relative;
+  }
+
+  .product input {
+    padding: 0px;
+  }
+  .FontAwesomeIcon {
+    position: absolute;
+  }
+}
+
